@@ -2,5 +2,37 @@
 /* CSS Document */
 
 body {
-	background-color: blueviolet;
+	background-color: #F9FBE3;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 10%;
+	margin-right: 5%;
+	font-size: 20px;
+}
+
+header {
+	background-color: #59A225;
+	padding-bottom: 20px;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 15px;
+}
+
+h2, h3, em {
+	color: #416726;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.posttime {
+	color: #B36F6A;
+	font-size: 0.7em;
+}
+
+dt, dd {
+	margin-bottom: 0.5em;
 }
