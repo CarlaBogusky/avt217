@@ -1,57 +1,70 @@
 @charset "UTF-8";
 /* CSS Document */
-
 body {
-    font-family: "Share Tech", sans-serif;
+  text-align: center;
+  background:url("../img/pumpkin-pie.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#container {
+  margin-top: 40vh;
+}
+
+p {
+  text-transform:uppercase;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: red;
+  /*original color was #b80508*/
+  font-size: 4em;
+  background-color: black;
+}
+ 
+/* tell browser don't display it when screen is wider than 768px */
+.mobile-only {
+  display: none;
+}
+
+
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+@media only screen and (max-width: 768px) {
+  
+  body {
+    background-image: none;
+    background-color: blanchedalmond;
+
+  }
+  
+  #container {
+    margin-top: 20vh;
+  }
+    
+  p {
+    text-transform: none;
+    color: darkorange;
+    background-color: blanchedalmond;
+  }
+  
+  #cursive {
+    font-family: "Parisienne", cursive;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.7em;
-    background-color: blue;
-}
+    font-size: 6em;
+    color: peru;
+  }
+  
+  .mobile-only {
+    display: block;
+  }
 
-#wrapper {
-    padding: 0 5%;
-    background-color: lavender;
-    float: left;
-    width: 90%;
-}
+  /* Now the style and content for desktop will not be displied */
+  .desktop-only {
+    display: none;
+  }
 
-.weekly {
-    width:45%;
-    float: left;
-    margin: 0 5%;
-}
-
-#project {
-    width:45%;
-    float: left;
-}
-
-h1 {
-    font-family: "tachyon", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-a:link {
-    color:darkorchid;
-    text-decoration: none;
-}
-
-a:visited {
-    color:slateblue
-}
-
-a:hover {
-    color: goldenrod;
-    text-decoration: underline;
-}
-
-a:active {
-    color: gold;
-}
-
-.demo {
-    color:blue;
-    font-family: "tachyon", sans-serif;
-}
+} /* don't forget to close the styles for mobile/
