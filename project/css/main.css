@@ -15,11 +15,21 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+h1 {
+    font-size: 48px;
+    color: #F99820;
+    text-align: center;
+}
+
 h2 {
     font-size: 32px;
 }
 
 p {
+    font-size: 20px;
+}
+
+li {
     font-size: 20px;
 }
 
@@ -74,11 +84,6 @@ a.navigation:hover {
     width: 100%;
 }
 
-article {
-    padding: 0px 100px;
-    text-align: center;
-}
-
 footer {
     background-color: #1A457C;
     padding: 20px;
@@ -86,7 +91,27 @@ footer {
     text-align: center;
 }
 
+/*MULTIPLE PAGES*/
+
+section {
+    padding: 0px 100px;
+    text-align: center;
+}
+
+article {
+    margin: 0 5% 5% 5%;
+    display: flex;
+}
+
+.smallimage {
+    width: 480px;
+    height: 320px;
+    margin: 50px;
+}
+
 /*HOME PAGE ONLY*/
+/*make the orange and blue feature boxes be vertical (flex?)boxes with three elements: an empty paragraph (top), the content (middle), and another empty paragraph
+(bottom), then you can vertical align them center*/
 
 #homepagefeature1 {
     display: flex;
