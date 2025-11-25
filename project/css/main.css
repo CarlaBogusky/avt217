@@ -25,6 +25,10 @@ h2 {
     font-size: 32px;
 }
 
+h3 {
+    font-size: 24px;
+}
+
 p {
     font-size: 20px;
 }
@@ -107,6 +111,30 @@ article {
     width: 480px;
     height: 320px;
     margin: 50px;
+}
+
+.bluelisting {
+    display: flex;
+    margin: 30px 5%;
+    border-radius: 50px;
+    background-color:#c9e0fc;
+}
+
+.orangelisting {
+    display: flex;
+    margin: 30px 5%;
+    border-radius: 50px;
+    background-color:#ffe2c3;
+}
+
+.listingimage {
+    width: 480px;
+    height: 320px;
+    /*margin: 50px;*/
+}
+
+.listingtext {
+    margin: 0 30px;
 }
 
 /*HOME PAGE ONLY*/
