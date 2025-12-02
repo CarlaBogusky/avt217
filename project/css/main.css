@@ -177,3 +177,9 @@ article {
     border-radius: 0px 50px 50px 0px;
 }
 
+/*24 HOUR GUIDE PAGE ONLY*/
+
+.tallimage {
+    width: 40%;
+    margin: 20px 0 0 5%;
+}
